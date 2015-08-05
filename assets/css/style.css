@@ -14,14 +14,14 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -31,16 +31,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 16px; 
+	font-size: 16px;
 	line-height: 26px;
-	color: #666; 
+	color: #666;
 	margin-top: 10px;
-	letter-spacing: 0.7px; 
+	letter-spacing: 0.7px;
 }
 
 html,
@@ -90,10 +90,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -178,7 +178,7 @@ a:focus {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 16px;
@@ -350,14 +350,14 @@ input {
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
-	padding-top: 210px;
+	/*padding-top: 210px;*/
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -386,9 +386,10 @@ input {
 
 /* DIVIDED SECTION */
 .news {
-	background-position: center;
-	background-image: url('../img/news-bg.jpg');
-	background-size: cover;
+/*	background-position: center;
+	background-image: url('../img/group.jpg');
+	background-size: cover;*/
+
 }
 
 .news .container {
@@ -399,7 +400,7 @@ input {
 	background-color: #03C9A9;
 	height: 100%;
 	padding-top: 40px;
-	padding-bottom: 80px;
+	padding-bottom: 151px;
 }
 
 .section-bg-color h3, .section-bg-color h1,.section-bg-color h5, .section-bg-color p {
@@ -408,11 +409,20 @@ input {
 	color: white;
 }
 
+
+.section-found {
+	background: url('../img/group.jpg') no-repeat;
+	background-size: 100%;
+	height: 100%;
+	padding-top: 40px;
+	padding-bottom: 4px;
+}
+
 .section-transparent {
 	background: transparent;
 	height: 100%;
-	padding-top: 40px;
-	padding-bottom: 80px;
+	padding-top: 200px;
+	/*padding-bottom: 80px;*/
 }
 
 .section-transparent h3, .section-transparent h1, .section-transparent h6, .section-transparent p {
@@ -502,7 +512,7 @@ input {
 	padding-right: 25px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	color: white;	
+	color: white;
 	margin: 5px;
 }
 
@@ -569,3 +579,8 @@ input {
 	margin-right: 15px;
 }
 
+#img_grid{
+	background: url(../img/13.png) repeat center top;
+	padding-top: 210px;
+	min-height: 700px;
+}

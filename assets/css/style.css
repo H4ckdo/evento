@@ -584,3 +584,8 @@ input {
 	padding-top: 210px;
 	min-height: 700px;
 }
+
+.picasagallery div:last-child{
+   max-height: 200px;
+   overflow: hidden;
+}

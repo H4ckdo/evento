@@ -108,7 +108,7 @@
         var data = dom.data('picasagallery'); // original options passed to picasagallery()
         var album = $(this).data('album');
         var protocol = document.location.protocol == 'http:' ? 'http:' : 'https:';
-        var url = protocol + '//picasaweb.google.com/data/feed/api/user/neneriostb/album/IJornadaDeSoftLibre?kind=photo&alt=json';
+        var url = protocol + '//picasaweb.google.com/data/feed/api/user/neneriostb/album/Hackdo?kind=photo&alt=json';
 
         // initialize album html content
         dom.children('div:last').html('loading...').show();

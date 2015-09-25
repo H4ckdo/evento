@@ -615,3 +615,10 @@ input {
 .item{
 	text-align: center
 }
+
+.founders h6 ,
+.founders h3,
+.founders p{
+	color: #B4D5D0;
+  font-weight: 600;
+}

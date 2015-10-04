@@ -622,3 +622,8 @@ input {
 	color: #B4D5D0;
   font-weight: 600;
 }
+
+/*gallery*/
+.gallery .aligncenter{
+  margin-bottom: -20px;
+}

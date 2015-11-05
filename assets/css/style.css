@@ -272,7 +272,7 @@ a:focus {
 
 /*Text grey*/
 tg {
-	color: #b6b6b6;
+	color: #006555;
 }
 /*Text Green*/
 tgr {
@@ -406,7 +406,7 @@ input {
 .section-bg-color h3, .section-bg-color h1,.section-bg-color h5, .section-bg-color p {
 	margin-left: 25px;
 	margin-right: 25px;
-	color: white;
+	color: #182A27;
 	margin-top: 0px;
 }
 
